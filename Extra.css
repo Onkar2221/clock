@@ -1,0 +1,29 @@
+#clockContainer
+{
+    /* background-color: red; */
+    border: 2px double red;
+    position: relative;
+    margin: auto;
+    height: 40vw;
+    width: 40vw;
+    background: url(clock.png) no-repeat;
+    background-size: 100%;     
+    /* it is used bec. of watch move proper center(100%) */
+}
+
+#hour, #minute, #second
+{
+    position: absolute;
+    background: rgb(23, 41, 158);
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#hour
+{
+    height: 25%;
+    width: 2%;
+    top: 26%;
+    opacity: 1;
+    left: 49%;
+}
